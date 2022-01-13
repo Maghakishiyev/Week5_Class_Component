@@ -15,11 +15,11 @@ class App extends Component {
             <Login />
           </Route>
 
-          <Route path="/forecast">
+          <Route path="/forecast" exact>
             <Forecast />
           </Route>
 
-          <Route path="/">
+          <Route path="/" exact>
             <Landing />
           </Route>
 
